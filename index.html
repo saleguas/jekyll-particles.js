@@ -3,24 +3,37 @@ layout: page
 title: Are_you_ready?
 permalink: /
 ---
-<html lang="en">
+<html lang="en" style="overflow: hidden">
+
 <head>
-  <meta charset="utf-8">
-  <title>particles.js</title>
-  <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
-  <meta name="author" content="Vincent Garreau" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link rel="stylesheet" media="screen" href="assets/css/style.css">
+	<meta charset="utf-8">
+	<title>particles.js</title>
+	<meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+	<meta name="author" content="Vincent Garreau" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" media="screen" href="assets/css/style.css">
+	<link rel="stylesheet" media="screen" href="assets/css/user.css">
 </head>
-<body>
+	<script src="assets/js/intro.js"></script>
+<body id="particles-js" onload="addMainBox()">
+  <!--onload="addMainBox()"-->
+	<!-- particles.js container 
+<div id="particles-js"></div>-->
+	<!-- scripts -->
+  <br><br><br>
+<!--  <center><div id="funstuff">
+    
+  </div></center>-->
+	<script src="assets/js/particles.js">
 
-<!-- particles.js container -->
-<div id="particles-js"></div>
+	</script>
+	<script src="assets/js/app.js">
 
-<!-- scripts -->
-<script src="assets/js/particles.js"></script>
-<script src="assets/js/app.js"></script>
-
+	</script>
+	<div class="maintext" id="fadeout"></div>
+	<div class="maintextbox" id="fadein">
+	</div>
 
 </body>
+
 </html>

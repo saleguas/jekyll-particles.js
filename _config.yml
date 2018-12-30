@@ -13,24 +13,21 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Cypress Bay/Broward/high school GPA calculator
+title: Cypress bay Computer Science
 email: salvadoraleguas@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Some useful tools that will help you calculate and predict your GPA.
-  Works for Cypress bay and Broward county as far as I have tested it.
-  I am NOT responsible for anything that happens from these tools. Use them at your own risk.
-baseurl: "/salaleguas" # the subpath of your site, e.g. /blog
+  Website for cypress bay computer science
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://saleguas.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: xyungmattyx
 github_username:  saleguas
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-
+    - jekyll-feed
+    - jekyll-sitemap
+    - jekyll-paginate
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -42,5 +39,5 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-gems:
-  - jekyll-sitemap
+
+
